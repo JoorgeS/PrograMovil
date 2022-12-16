@@ -1,0 +1,48 @@
+*{
+    background-color: #012C56;
+    color: #ffffff;
+}
+
+.body{
+    text-decoration-color: #ffffff;
+}
+
+
+.d-grid{
+    padding-bottom: 25px;
+}
+
+.image-logo{
+    width: 75%;
+}
+
+/*Carrusel*/
+
+.carousel-inner {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+}
+
+@media screen and (min-device-width: 850) {
+    .boton .d-grid .gap-2 .d-md-flex{
+        background-repeat: no-repeat;
+        width: 800px; 
+        height: 800px; 
+        margin: 0;
+        padding: 0;
+        right: auto;
+    }
+}
+
+@media screen and (max-device-width: 1000) {
+    .img.d-block.mx-lg-auto.img-fluid{
+        background-repeat: no-repeat;
+        width: 800px; 
+        height: 800px; 
+        margin: 0;
+        padding: 0;
+        right: auto;  
+    }   
+}
+
